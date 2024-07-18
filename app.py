@@ -1,7 +1,6 @@
 '''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Nov-15
+Author: Sweymaan
+Email: sweymaanai@gmail.com
 '''
 
 import pickle
@@ -30,7 +29,7 @@ def recommend(movie):
     return recommended_movie_names,recommended_movie_posters
 
 
-st.header('Movie Recommender System Using Machine Learning')
+st.header('MOVIES RECOMMENDATION SYSYTEM')
 movies = pickle.load(open('artifacts/movie_list.pkl','rb'))
 similarity = pickle.load(open('artifacts/similarity.pkl','rb'))
 
